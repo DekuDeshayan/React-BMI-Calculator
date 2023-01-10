@@ -21,7 +21,7 @@ function App() {
       setLevel(calculateBMI(height, weight));
 
     }else{
-      toast.warn('Please fill the form', {
+      toast.error('Please fill the form', {
         position: "top-center",
         theme: 'colored'
       });
